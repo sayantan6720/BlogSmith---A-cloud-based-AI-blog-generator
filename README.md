@@ -23,12 +23,6 @@ This file handles the backend blog generation using AWS Bedrock and the storage 
 This file defines the initial user interface for generating blogs using **Streamlit**.
 - The user can input a blog topic, and upon clicking "Generate," the system triggers the blog generation and displays the content.
 
-### 3. `UI_V2.py`
-An updated version of the UI, featuring a more interactive and polished interface:
-- **Improved UI** with styled elements for better user experience.
-- Handles POST requests to invoke the blog generation Lambda function.
-- Displays the generated blog content with visual effects like fade-in animation.
-
 ## How It Works
 
 1. **User Input**: The user provides a blog topic through the UI.
@@ -36,8 +30,3 @@ An updated version of the UI, featuring a more interactive and polished interfac
 3. **Save to S3**: The generated blog is stored in an AWS S3 bucket.
 4. **Display Blog**: The blog content is displayed in the UI with formatting and animations.
 
-## Setup and Installation
-
-1. Clone the repository:
-   ```bash
-   git clone <repo_url>
